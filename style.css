@@ -1,0 +1,38 @@
+:root {
+    
+    --custom-sidebar-bg: #e0f7fa; 
+    
+    --custom-sidebar-text: #004d40; 
+}
+body {
+    background-color: #f4f7f6; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.resume-container {
+    overflow: hidden; 
+}
+.bg-custom-sidebar {
+    background-color: var(--custom-sidebar-bg) !important;
+    color: var(--custom-sidebar-text) !important;
+}
+.bg-custom-sidebar .text-white-50 {
+    color: rgba(0, 77, 64, 0.7)  !important; 
+}
+.bg-custom-sidebar h5.border-white {
+    border-color: var(--custom-sidebar-text) !important;
+}
+.contact-list li {
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+}
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover; 
+}
+.job-item ul {
+    padding-left: 1.2rem;
+    color: #495057; 
+}
